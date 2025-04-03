@@ -1,0 +1,25 @@
+{
+  "packageManager": "yarn@4.8.1",
+  "name": "simple-smtp-server",
+  "version": "1.0.0",
+  "author": "akiratatsuhisa@gmail.com",
+  "main": "build/index.js",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "mailparser": "^3.7.2",
+    "smtp-server": "^3.13.6"
+  },
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "build": "tsc",
+    "read:mail": "tsx src/read.ts"
+  },
+  "devDependencies": {
+    "@types/mailparser": "^3.4.5",
+    "@types/node": "^22.14.0",
+    "@types/smtp-server": "^3.5.10",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}
