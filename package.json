@@ -1,5 +1,4 @@
 {
-  "packageManager": "yarn@4.8.1",
   "name": "simple-smtp-server",
   "version": "1.0.0",
   "author": "akiratatsuhisa@gmail.com",
